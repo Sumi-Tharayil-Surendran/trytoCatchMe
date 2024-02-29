@@ -17,10 +17,10 @@ function getrandomNumber(min,max){
    return  Math.floor(Math.random()*(max-min)+min);
 }
 
-//  console.log(randomMessages())
-// console.log(randomColors())
-// console.log(randomMessages())
-// console.log(getrandomNumber(1,500))
+ console.log(randomMessages())
+console.log(randomColors())
+console.log(randomMessages())
+console.log(getrandomNumber(1,500))
 
  let btn= document.getElementById("btn")
  btn.addEventListener("mouseover",event=>{
