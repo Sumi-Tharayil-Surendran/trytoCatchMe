@@ -5,6 +5,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 body{
     display: grid;
@@ -15,10 +16,15 @@ body{
 #btn{
     background-color: blueviolet;
     border-radius: 80px;
+    top: 25%;
+    left: 25%;
+    right:25%;
+    bottom:25%;
     position: relative;
-    padding: 1rem;
+    padding: .5rem;
     border: none;
     color: brown;font-family:"Kode+Mono",sans-serif;font-size: 1rem ;
     box-shadow: 5px 5px 9px 5px #000000;
+
 
 }
